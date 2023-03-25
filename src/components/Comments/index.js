@@ -112,7 +112,6 @@ class Comments extends Component {
                 className="text-area"
               />
             </div>
-
             <button
               data-testid="delete"
               type="submit"
