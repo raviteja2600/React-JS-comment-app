@@ -1,0 +1,133 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding: 30px;
+    padding-left: 40px;
+  }
+}
+.form-container {
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    display: flex;
+    margin-top: 3px;
+    order: 0;
+  }
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 700;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    margin-bottom: 0px;
+  }
+}
+.image {
+  height: 200px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    order: 1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.label {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 10px;
+}
+.input-bar {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  outline: none;
+  padding: 7px;
+  padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .input-bar {
+    max-width: 250px;
+  }
+}
+.text-area {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  min-height: 90px;
+  margin-top: 7px;
+  padding: 7px;
+  padding-left: 10px;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .text-area {
+    max-width: 250px;
+  }
+}
+.submit-button {
+  background-color: #0284c7;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 400;
+  border-style: none;
+  border-radius: 5px;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.horizontal-line {
+  color: #cbd2d9;
+
+  width: 100%;
+}
+.initial-container {
+  height: 30px;
+  width: 30px;
+}
+.count-comment-container {
+  display: flex;
+  align-items: center;
+}
+.count-container {
+  text-align: center;
+  height: 22px;
+  width: 22px;
+  border-radius: 4px;
+  background-color: #0284c7;
+  margin-right: 5px;
+}
+.count {
+  color: #ffffff;
+  margin-top: 0px;
+}
+.comment-heading {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #64748b;
+}
+.lists-container {
+  list-style-type: none;
+  padding: 0px;
+}
