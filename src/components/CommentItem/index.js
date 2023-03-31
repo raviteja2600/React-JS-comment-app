@@ -39,12 +39,7 @@ const CommentItem = props => {
       <div className="bottom-section">
         <div className="like-container">
           <img src={likeImage} alt="like" className="like-icon" />
-          <button
-            data-testid="delete"
-            type="button"
-            onClick={onClickLike}
-            className="button"
-          >
+          <button type="button" onClick={onClickLike} className="button">
             <p className={likeText}>Like</p>
           </button>
         </div>
